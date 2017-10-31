@@ -7,14 +7,14 @@ import (
 )
 
 type Configuration struct {
-	Port			string
+	Port string
 
-	Color          	string
-	Name           	string
-	Taunt          	string
-	HeadType       	HeadType
-	TailType       	TailType
-	SecondaryColor 	string
+	Color          string
+	Name           string
+	Taunt          string
+	HeadType       HeadType
+	TailType       TailType
+	SecondaryColor string
 }
 
 func ParseConfiguration() (configuration Configuration, err error) {

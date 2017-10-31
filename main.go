@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
+	"github.com/julienschmidt/httprouter"
 	"github.com/stair-ch/snakehack-go/api"
 	"github.com/stair-ch/snakehack-go/configuration"
 	"github.com/stair-ch/snakehack-go/handler"
 	"github.com/stair-ch/snakehack-go/helper"
 	"github.com/stair-ch/snakehack-go/logic"
-	"github.com/julienschmidt/httprouter"
 	"net/http"
 	"os"
 )

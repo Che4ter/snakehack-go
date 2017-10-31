@@ -3,9 +3,9 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/julienschmidt/httprouter"
 	"github.com/stair-ch/snakehack-go/api"
 	"github.com/stair-ch/snakehack-go/configuration"
-	"github.com/julienschmidt/httprouter"
 	"net/http"
 )
 
