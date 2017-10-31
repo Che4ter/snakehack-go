@@ -27,3 +27,6 @@ This will create a `snakehack-go` executable.
 ```
 
 6) Test the client in your browser: [http://127.0.0.1:4242](http://127.0.0.1:9000)
+
+### Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
