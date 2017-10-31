@@ -9,7 +9,7 @@ import (
 	"github.com/stair-ch/snakehack-go/logic"
 	"github.com/julienschmidt/httprouter"
 	"net/http"
-	"strconv"
+	"os"
 )
 
 var config configuration.Configuration
@@ -40,7 +40,13 @@ func main() {
 
 	go logic.RunGameLogic(config, gameRequestBridge, gameResponseBridge, gameStartBridge)
 
-	fmt.Printf("snake running on http://%v:%v\n", helper.GetOutboundIP(), config.Port)
+	port := os.Getenv("PORT")
+
+	if port == "" {
+		port = config.Port
+	}
+
+	fmt.Printf("snake running on http://%v:%v\n", helper.GetOutboundIP(), port)
 	// Fire up the server
-	http.ListenAndServe(":"+strconv.Itoa(config.Port), r)
+	http.ListenAndServe(":"+port, r)
 }

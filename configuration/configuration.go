@@ -7,19 +7,19 @@ import (
 )
 
 type Configuration struct {
-	Port int
+	Port			string
 
-	Color          string
-	Name           string
-	Taunt          string
-	HeadType       HeadType
-	TailType       TailType
-	SecondaryColor string
+	Color          	string
+	Name           	string
+	Taunt          	string
+	HeadType       	HeadType
+	TailType       	TailType
+	SecondaryColor 	string
 }
 
 func ParseConfiguration() (configuration Configuration, err error) {
 	// Create a default configuration.
-	config := Configuration{4242, "#FF0000", "Funky Snake", "I eat you", PIXELHEAD, PIXELTAIL, "#00FF00"}
+	config := Configuration{"4242", "#FF0000", "Funky Snake", "I eat you", PIXELHEAD, PIXELTAIL, "#00FF00"}
 
 	// Open the configuration file.
 	fmt.Printf("load config file: %v", "configuration.json")
