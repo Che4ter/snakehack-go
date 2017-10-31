@@ -2,8 +2,8 @@ package logic
 
 import (
 	"fmt"
-	"github.com/Che4ter/snakehack-go/api"
-	"github.com/Che4ter/snakehack-go/configuration"
+	"github.com/stair-ch/snakehack-go/api"
+	"github.com/stair-ch/snakehack-go/configuration"
 )
 
 type GameData struct {

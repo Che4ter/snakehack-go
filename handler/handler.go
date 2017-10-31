@@ -3,8 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Che4ter/snakehack-go/api"
-	"github.com/Che4ter/snakehack-go/configuration"
+	"github.com/stair-ch/snakehack-go/api"
+	"github.com/stair-ch/snakehack-go/configuration"
 	"github.com/julienschmidt/httprouter"
 	"net/http"
 )

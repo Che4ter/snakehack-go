@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/Che4ter/snakehack-go/api"
-	"github.com/Che4ter/snakehack-go/configuration"
-	"github.com/Che4ter/snakehack-go/handler"
-	"github.com/Che4ter/snakehack-go/helper"
-	"github.com/Che4ter/snakehack-go/logic"
+	"github.com/stair-ch/snakehack-go/api"
+	"github.com/stair-ch/snakehack-go/configuration"
+	"github.com/stair-ch/snakehack-go/handler"
+	"github.com/stair-ch/snakehack-go/helper"
+	"github.com/stair-ch/snakehack-go/logic"
 	"github.com/julienschmidt/httprouter"
 	"net/http"
 	"strconv"
