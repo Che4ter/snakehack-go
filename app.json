@@ -8,7 +8,12 @@
   ],
   "website": "https://snakehack.stair.ch/",
   "repository": "https://github.com/stair-ch/snakehack-go",
-  "env": {
-    "BUILDPACK_URL": "https://github.com/kr/heroku-buildpack-go"
-  }
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-go"
+    },
+    {
+      "url": "heroku/go"
+    }
+  ]
 }
