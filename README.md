@@ -34,7 +34,7 @@ This will create a `snakehack-go` executable.
 #### Heroku-cli commands
 create new heroku app, `--region eu` is important for fast enough response times
 ```
-heroku create --region eu
+heroku create [APP_NAME] --region eu
 ```
 push to heroku
 ```
