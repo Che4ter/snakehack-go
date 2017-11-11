@@ -42,7 +42,7 @@ heroku login
 
 create new heroku app, `--region eu` is important for fast enough response times
 ```
-heroku create fancyname --region eu
+heroku create [APP_NAME] --region eu
 ```
 push to heroku
 ```
