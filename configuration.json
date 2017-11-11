@@ -1,9 +1,9 @@
 {
   "Port": "4242",
-  "Color": "#0c6859",
-  "Name": "Drunk Snake",
-  "Taunt": "Shut up!",
-  "HeadType": 2,
-  "TailType": 7,
+  "Color": "#00b6c9",
+  "Name": "Rainbow snake",
+  "Taunt": "go go go",
+  "HeadType": 10,
+  "TailType": 6,
   "SecondaryColor": "#000000"
 }

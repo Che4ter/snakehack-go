@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/julienschmidt/httprouter"
-	"github.com/stair-ch/snakehack-go/api"
-	"github.com/stair-ch/snakehack-go/configuration"
+	"github.com/Che4ter/snakehack-go/api"
+	"github.com/Che4ter/snakehack-go/configuration"
 	"net/http"
 )
 
