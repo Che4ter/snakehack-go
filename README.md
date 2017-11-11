@@ -33,7 +33,7 @@ This will create a `snakehack-go` executable.
 
 #### Heroku-cli commands
 download heroku cli
-https://devcenter.heroku.com/articles/getting-started-with-java#set-up
+https://devcenter.heroku.com/articles/getting-started-with-go#set-up
 
 login to heroku
 ```
