@@ -10,7 +10,7 @@ import (
 )
 
 func Index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
-	fmt.Fprint(w, "snake up and running!\n ")
+	fmt.Fprint(w, "snake up and running!l\n ")
 }
 
 func Start(gameStartBridge chan api.StartRequest, config configuration.Configuration) httprouter.Handle {
